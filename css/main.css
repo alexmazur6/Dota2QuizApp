@@ -1,0 +1,51 @@
+body {
+	text-align: center;
+}
+
+header {
+	text-align: center;
+}
+
+header h1 {
+	display:inline-block;
+	border-bottom: 1px solid black;
+}
+
+.menu {
+	display: inline-block;
+	border: 1px solid black;
+	padding: 20px;
+}
+
+.menu h1 {
+	margin-top: 0px;
+	font-size:3em;
+}
+
+.question-list {
+	text-align:center;
+	margin-top: 50px;
+	display:none;
+}
+
+ul {
+	list-style: none;
+	padding:0px;
+}
+
+.answer-list li {
+	display:inline-block;
+	padding:3px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.answer-list button {
+	margin-left: 10px;
+}
+
+.question {
+	display: inline-block;
+	padding: 10px;
+	border: 1px solid black;
+}
